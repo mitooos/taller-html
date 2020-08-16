@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miguel Hoyos</title>
+</head>
+<body>
+    <header>
+        <h1>Miguel Hoyos Ruge</h1>
+        <img src="./imagen-perfil.jpg" alt="imagen de perfil">
+    </header>
+
+    <nav>
+        <ol>
+            <li><a href="#bienvenida">Introducción</a></li>
+            <li><a href="#datos-biograficos">Datos Biográficos</a></li>
+            <li><a href="#datos-academicos">Datos Académicos</a></li>
+            <li><a href="#sitios-interes">Sitios de Interes</a>
+                <ul>
+                    <li><a href="#videos">Videos</a></li>
+                    <li><a href="#enlaces">Enlaces</a></li>
+                    <li><a href="#imagenes">Imágenes</a></li>
+                </ul>
+            </li>
+            <li><a href="#form-contacto">Contacto</a></li>
+        </ol>
+    </nav>
+
+    <div class="bienvenida" id="bienvenida">
+        <h2>Bienvenidos</h2>
+        <p>Bienvenido a mi página personal</p>
+    </div>
+
+    <div class="datos-biograficos" id="datos-biograficos">
+        <h2>Datos biográficos</h2>
+        <table>
+            <tr>
+                <th id="cumpleaños">Cumpleaños</th>
+                <td>21 de octubre de 1997</td>
+            </tr>
+            <tr>
+                <th id="lugar-nacimiento">Lugar nacimiento</th>
+                <td>Bogotá</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="datos-academicos" id="datos-academicos">
+        <h2>Datos académicos</h2>
+        <dl>
+            <dt>Colegio</dt>
+            <dd>Colegio Anglo Colombiano</dd>
+            <dd>2002-2016</dd>
+
+            <dt>Universidad</dt>
+            <dd>Universidad de Los Andes</dd>
+            <dd>Ingeniería de sistemas y computación</dd>
+            <dd>2016-2021</dd>
+
+            <dt>Otros</dt>
+            <dd>Hult University-2015</dd>
+        </dl>
+    </div>
+
+    <div class="sitios-interes" id="sitios-interes">
+        <h2>Sitios de Interes</h2>
+
+        <div class="videos" id="videos">
+            <h3>Videos</h3>
+            <iframe title="Call Super in the lab ldn" width="560" height="315" src="https://www.youtube.com/embed/j5SgdpXaHHo" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe title="Seth Troxler for cercle" width="560" height="315" src="https://www.youtube.com/embed/C8iwk-iDHw8" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe title="Kerri Chandler Reel-To-Reel Session" width="560" height="315" src="https://www.youtube.com/embed/YC7Mw8RjlXM" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+        <div class="enlaces" id="enlaces">
+            <h3>Enlaces</h3>
+            <ul>
+                <li><a href="https://www.residentadvisor.net/reviews/25093" target="blank">Nicolas Jaar-Telas review</a></li>
+                <li> <a href="https://doc.rust-lang.org/book/" target="blank">The Rust Programming Language</a></li>
+            </ul>
+        </div>
+
+        <div class="imagenes" id="imagenes">
+            <h3>Imágenes</h3>
+            <img src="https://images.theconversation.com/files/123546/original/image-20160523-11012-ue2y70.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=926&fit=clip" alt="lemur">
+            <img src="https://thefunnybeaver.com/wp-content/uploads/2018/12/otter17.jpg" alt="sea otter">
+        </div>
+    </div>
+
+    <div class="form-contacto" id="form-contacto">
+        <h2>Contacto</h2>
+        <form>
+            <label for="nombre">Nombre</label>
+            <input id="nombre" type="text"><br>
+
+            <label for="email">Email</label>
+            <input id="email" type="text"><br>
+
+            <label for="asunto">Asunto</label>
+            <input id="asunto" type="text"><br>
+
+            <label for="mensaje">Mensaje</label>
+            <textarea name="mensaje" id="mensaje" cols="100" rows="10"></textarea><br>
+
+            <button>Enviar</button>
+        </form>
+    </div>
+
+    <footer class="footer" id="footer">
+        <p>Email: <a href="mailto:ma.hoyosr@uniandes.edu.co">ma.hoyosr@uniandes.edu.co</a></p>
+        <p>Whatsapp: <a href="https://wa.link/u2tg1m" target="blank">+57 3102452958</a></p>
+    </footer>
+
+</body>
+</html>
